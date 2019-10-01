@@ -1,5 +1,5 @@
 var data = {
-    maxium: 99,
+    maximum: 99,
     products: [
         {
             "id": "532",

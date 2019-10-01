@@ -13,10 +13,11 @@
 	</head>
 	<body class="container mt-4">
 		<div class="container" id="app">
+			<input type="text" class="form-control w-25" v-model="maximum" />
 			<div
 				class="row d-flex mb-3 align-items-center"
 				v-for="item in products"
-				v-if="item.price<=Number(maxium)"
+				v-if="item.price<=Number(maximum)"
 			>
 				<div class="col-sm-4">
 					<img
